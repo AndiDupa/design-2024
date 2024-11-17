@@ -1,0 +1,79 @@
+/* Header */
+
+@import 'color';
+
+.header {
+    background-color: $header;
+    border-bottom: 2px solid $fontColorBright;
+}
+
+.header, .site-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.site-header {
+    max-width: fit-content;
+}
+
+.navLink {
+    background-color: $background-color-bright;
+    padding: 1em;
+    border-radius: 1em;
+    margin-left: 1em;
+}
+
+.navLink:hover {
+    background-color: $navHover;
+}
+
+.nav-toggle {
+    color: $background-color-bright;
+}
+
+/* Title */
+
+.title, .logo {
+    margin: 1em;
+}
+
+.homeImage {
+    border-radius: 50%;
+    border: 2px solid $fontColorBright;
+}
+
+@media (max-width: 500px) {
+    .site-header {
+        display: inline-block;
+        justify-content: space-between;
+    }
+    .title * {
+        display: block;
+        min-width: 20%;
+    }
+    .logo {
+        display: inline-block;
+        max-width: 30%;
+    }
+    .main {
+        max-width: 100%;
+    }
+    p {
+        word-break: break-all;
+    }
+    li {
+        word-break: break-all;
+    }
+    .nav-toggle {
+        margin-top: -10em;
+    }
+}
+
+.title * {
+    color: $fontColorBright;
+}
+
+.title p {
+    font-style: italic;
+}

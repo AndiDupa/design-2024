@@ -1,0 +1,25 @@
+/* Footer */
+
+@import 'color';
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: $header;
+    border-top: 1px solid $fontColorBright;
+    padding: 2em;
+    a {
+        color: $fontColorBright;
+    }
+    .social {
+        float: right;
+    }
+    .container {
+        float: right;
+        font-size: 2em;
+    }
+    .footerText {
+        color: $fontColorBright;
+        word-break: break-word;
+    }
+}

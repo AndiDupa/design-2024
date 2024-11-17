@@ -1,0 +1,38 @@
+/* Body */
+
+body {
+    background-color: $background-color;
+}
+
+html {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    box-shadow: #202325 0px 0px 15px -2px;
+    background-color: $background-color-bright;
+    padding: 1em;
+    border: 2px solid black;
+    border-radius: 1em;
+    margin: 1em;
+}
+
+p {
+    font-size: 1.4em;
+    line-height: 1.4em;
+    margin-bottom: 1.96rem;
+}
+
+* {
+    font-family: 'Kanit', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+img {
+    width: 15em;
+}
