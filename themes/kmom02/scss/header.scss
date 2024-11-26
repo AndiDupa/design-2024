@@ -17,11 +17,17 @@
     max-width: fit-content;
 }
 
+.navA {
+    display: block;
+    padding: 1.2em;
+    text-decoration: none;
+}
+
 .navLink {
     background-color: $background-color-bright;
-    padding: 1em;
     border-radius: 1em;
-    margin-left: 1em;
+    margin-left: 1.96em;
+    margin-top: 1.96em;
 }
 
 .navLink:hover {

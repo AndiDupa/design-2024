@@ -386,11 +386,17 @@ pre code {
   max-width: fit-content;
 }
 
+.navA {
+  display: block;
+  padding: 1.2em;
+  text-decoration: none;
+}
+
 .navLink {
   background-color: #f5f5f5;
-  padding: 1em;
   border-radius: 1em;
-  margin-left: 1em;
+  margin-left: 1.96em;
+  margin-top: 1.96em;
 }
 
 .navLink:hover {
@@ -485,6 +491,116 @@ img {
 }
 
 /* Color */
+/* Technology */
+/* Color */
+.landing-page {
+  display: grid;
+  gap: 1.96rem 1.96rem;
+  margin-bottom: 1.96rem;
+  width: 100%;
+}
+
+.landing-page h1 {
+  display: grid;
+  grid-column: 1/span 3;
+  justify-self: center;
+}
+
+.box {
+  border: 2px solid black;
+  transition: opacity 0.5s;
+  opacity: 30%;
+  text-decoration: none;
+  color: #333;
+}
+
+.box:hover {
+  opacity: 100%;
+  box-shadow: 0px 0px 15px -2px rgba(0, 0, 0, 0.2);
+}
+
+.technology {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.technology .article {
+  width: 70%;
+}
+
+.technology .menu {
+  width: 20%;
+  text-align: center;
+}
+
+.technology p a {
+  color: #333;
+}
+
+.box.css {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.box.html {
+  grid-column: 2/span 2;
+}
+
+.box.javascript {
+  grid-column: 1/span 2;
+  grid-row: 3;
+}
+
+.box.php {
+  grid-column: 3;
+}
+
+.box.python {
+  grid-column: 1/span 3;
+}
+
+.box.git {
+  grid-column: 1;
+}
+
+.box.sqlite {
+  grid-column: 2/span 2;
+}
+
+@media (max-width: 500px) {
+  .landing-page h1 {
+    grid-column: 1/span 1;
+  }
+  .box.css {
+    grid-column: 1;
+  }
+  .box.html {
+    grid-column: 1;
+  }
+  .box.javascript {
+    grid-column: 1;
+  }
+  .box.php {
+    grid-column: 1;
+  }
+  .box.python {
+    grid-column: 1;
+  }
+  .box.git {
+    grid-column: 1;
+  }
+  .box.sqlite {
+    grid-column: 1;
+  }
+  .menu {
+    display: none;
+  }
+  .technology .article {
+    width: 100%;
+  }
+}
 /*!
  * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)

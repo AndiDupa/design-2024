@@ -24,7 +24,7 @@
             <ul>
                 {% for page in pages(depthOffset=-1) if page.title and not page.hidden %}
                     <li class="navLink" {% if page.id==current_page.id %} class="active" {% endif %}>
-                        <a href="{{ page.url }}">{{ page.title }}</a>
+                        <a class="navA" href="{{ page.url }}">{{ page.title }}</a>
                     </li>
                 {% endfor %}
             </ul>
