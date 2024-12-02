@@ -1,7 +1,5 @@
 /* Technology */
 
-@import 'color';
-
 .landing-page {
     display: grid;
     gap: 1.96rem 1.96rem;
@@ -16,7 +14,7 @@
 }
 
 .box {
-    border: 2px solid black;
+    border: 2px solid black; // byt till variabel
     transition: opacity .5s;
     opacity: 30%;
     text-decoration: none;

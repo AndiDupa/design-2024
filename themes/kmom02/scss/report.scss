@@ -1,0 +1,83 @@
+/* Report */
+
+.landing-page {
+    display: grid;
+    gap: 1.96rem 1.96rem;
+    margin-bottom: 1.96rem;
+    width: 100%;
+}
+
+.landing-page h1 {
+    display: grid;
+    grid-column: 1 / span 3;
+    justify-self: center;
+}
+
+.colors {
+    grid-column: 1 / span 3;
+    text-align: center;
+}
+
+.load {
+    grid-column: 1 / span 3;
+    text-align: center;
+}
+
+.design_principles {
+    grid-column: 1 / span 3;
+    text-align: center;
+}
+
+.report a {
+    text-decoration: none;
+}
+
+.article {
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.article {
+    h1 {
+        text-align: center;
+    }
+    h2 {
+        text-align: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .article {
+        width: auto;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+.analysis_image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: 2px solid $fontColorDark;
+    border-radius: 1em;
+}
+
+.analysis_table {
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid $fontColorDark;
+    border-top: none;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+
+@media (max-width: 500px) {
+    .analysis_image {
+        width: 90%;
+    }
+    .analysis_table {
+        width: 60%;
+    }
+}

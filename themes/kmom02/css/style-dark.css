@@ -308,7 +308,7 @@ template {
   display: none;
 }
 
-/* Color */
+/* Variables-dark */
 /* Blockquote */
 blockquote {
   font-style: italic;
@@ -355,12 +355,12 @@ pre code {
 .footer {
   display: flex;
   justify-content: space-between;
-  background-color: #1F2C35;
+  background-color: #121212;
   border-top: 1px solid #FFE6C2;
   padding: 2em;
 }
 .footer a {
-  color: #FFF2E7;
+  color: #FFE6C2;
 }
 .footer .social {
   float: right;
@@ -370,7 +370,7 @@ pre code {
   font-size: 2em;
 }
 .footer .footerText {
-  color: #FFF2E7;
+  color: #FFE6C2;
   word-break: break-word;
 }
 
@@ -381,7 +381,7 @@ pre code {
 }
 /* Header */
 .header {
-  background-color: #032B29;
+  background-color: #121515;
   border-bottom: 2px solid #FFE6C2;
 }
 
@@ -396,7 +396,7 @@ pre code {
 }
 
 .nav a {
-  color: #333;
+  color: #FFE6C2;
 }
 
 .navA {
@@ -406,20 +406,20 @@ pre code {
 }
 
 .navLink {
-  background-color: #FFE6C2;
+  background-color: #3f3f3f;
   border-radius: 1em;
   margin-left: 1.96em;
   margin-top: 1.96em;
 }
 
 .navLink:hover {
-  background-color: #B38761;
+  background-color: #282828;
   transition: background-color 0.5s ease;
 }
 
 .nav-toggle {
-  background-color: #FFE6C2;
-  color: #333;
+  background-color: #3f3f3f;
+  color: #FFE6C2;
   border-radius: 1em;
 }
 
@@ -473,7 +473,7 @@ pre code {
   }
 }
 .title * {
-  color: #FFF2E7;
+  color: #FFE6C2;
 }
 
 .title p {
@@ -483,7 +483,7 @@ pre code {
 /* Test */
 /* Body */
 body {
-  background-color: #797D70;
+  background-color: #111;
 }
 
 html {
@@ -493,13 +493,13 @@ html {
 }
 
 .article {
-  box-shadow: #333 0px 0px 15px -2px;
-  background-color: #FFF2E7;
+  box-shadow: #FFE6C2 0px 0px 15px -2px;
+  background-color: #282a2a;
   padding: 1em;
   border: 2px solid #FFE6C2;
   border-radius: 1em;
   margin: 1em;
-  color: #333;
+  color: #FFE6C2;
 }
 
 p {
@@ -539,7 +539,7 @@ img {
   transition: opacity 0.5s;
   opacity: 30%;
   text-decoration: none;
-  color: #333;
+  color: #FFE6C2;
 }
 
 .box:hover {
@@ -564,7 +564,7 @@ img {
 }
 
 .technology p a {
-  color: #333;
+  color: #FFE6C2;
 }
 
 .box.css {
@@ -687,14 +687,14 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  border: 2px solid #333;
+  border: 2px solid #FFE6C2;
   border-radius: 1em;
 }
 
 .analysis_table {
   margin-left: auto;
   margin-right: auto;
-  border: 2px solid #333;
+  border: 2px solid #FFE6C2;
   border-top: none;
   border-bottom-left-radius: 1em;
   border-bottom-right-radius: 1em;

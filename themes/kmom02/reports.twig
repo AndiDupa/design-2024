@@ -8,11 +8,11 @@
             <div class="landing-page">
                 {{ content }}
         
-                {% for tech in meta.techs %}
-                    <a class="box {{ tech.class }}" href="{{ base_url }}/technology/{{ tech.class }}">
+                {% for report in meta.reports %}
+                    <a class="box {{ report.class }}" href="{{ base_url }}/analysis/{{ report.web }}">
                         <div>
                             <h1>
-                                {{ tech.name }}
+                                {{ report.name }}
                             </h1>
                         </div>
                     </a>

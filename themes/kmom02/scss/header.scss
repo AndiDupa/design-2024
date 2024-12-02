@@ -1,10 +1,8 @@
 /* Header */
 
-@import 'color';
-
 .header {
     background-color: $header;
-    border-bottom: 2px solid $fontColorBright;
+    border-bottom: 2px solid $borderColor;
 }
 
 .header, .site-header {
@@ -17,6 +15,10 @@
     max-width: fit-content;
 }
 
+.nav a {
+    color: $fontColorDark;
+}
+
 .navA {
     display: block;
     padding: 1.2em;
@@ -24,7 +26,7 @@
 }
 
 .navLink {
-    background-color: $background-color-bright;
+    background-color: $navbar;
     border-radius: 1em;
     margin-left: 1.96em;
     margin-top: 1.96em;
@@ -32,10 +34,13 @@
 
 .navLink:hover {
     background-color: $navHover;
+    transition: background-color 0.5s ease;
 }
 
 .nav-toggle {
-    color: $background-color-bright;
+    background-color: $navbar;
+    color: $fontColorDark;
+    border-radius: 1em;
 }
 
 /* Title */
@@ -46,13 +51,22 @@
 
 .homeImage {
     border-radius: 50%;
-    border: 2px solid $fontColorBright;
+    border: 2px solid $borderColor;
+}
+
+@media (max-width: 900px) {
+    .navLink {
+        margin-left: 1em;
+        margin-top: 1em;
+    }
 }
 
 @media (max-width: 500px) {
     .site-header {
         display: inline-block;
         justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
     }
     .title * {
         display: block;
@@ -73,6 +87,11 @@
     }
     .nav-toggle {
         margin-top: -10em;
+    }
+    .homeImage {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 

@@ -23,7 +23,7 @@
     display: none;
 }
 
-@media (max-width: 1060px) {
+@media (max-width: 1200px) {
     .nav ul {
         display: flex;
         flex-wrap: wrap;
@@ -40,7 +40,7 @@
         margin-top: -4em;
         flex-direction: column;
         padding-bottom: 1em;
-        padding-right: 1em;
+        padding-right: 2em;
     }
 
     .nav ul li {
@@ -58,6 +58,7 @@
         display: block;
         float: right;
         width: 2em;
+        height: 2em;
         margin: 0.6667em 0;
         font-size: 1.5rem;
         line-height: 2em;

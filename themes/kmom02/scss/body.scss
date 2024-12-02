@@ -10,13 +10,18 @@ html {
     width: 100%;
 }
 
-.main {
-    box-shadow: #202325 0px 0px 15px -2px;
+// .main {
+
+// }
+
+.article {
+    box-shadow: $boxShadowColor 0px 0px 15px -2px;
     background-color: $background-color-bright;
     padding: 1em;
-    border: 2px solid black;
+    border: 2px solid $borderColor; // byt färg till variabel
     border-radius: 1em;
     margin: 1em;
+    color: $fontColorDark;
 }
 
 p {
