@@ -355,7 +355,7 @@ pre code {
 .footer {
   display: flex;
   justify-content: space-between;
-  background-color: #121212;
+  background: linear-gradient(to bottom right, #121515, #121212);
   border-top: 1px solid #FFE6C2;
   padding: 2em;
 }
@@ -381,7 +381,7 @@ pre code {
 }
 /* Header */
 .header {
-  background-color: #121515;
+  background: linear-gradient(to top left, #121515, #121212);
   border-bottom: 2px solid #FFE6C2;
 }
 
@@ -429,6 +429,7 @@ pre code {
 }
 
 .homeImage {
+  width: 15em;
   border-radius: 50%;
   border: 2px solid #FFE6C2;
 }
@@ -448,7 +449,6 @@ pre code {
   }
   .title * {
     display: block;
-    min-width: 20%;
   }
   .logo {
     display: inline-block;
@@ -458,7 +458,7 @@ pre code {
     max-width: 100%;
   }
   p {
-    word-break: break-all;
+    word-break: break-word;
   }
   li {
     word-break: break-all;
@@ -483,7 +483,11 @@ pre code {
 /* Test */
 /* Body */
 body {
-  background-color: #111;
+  background: linear-gradient(to bottom left, #FFE6C2, #111);
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 html {
@@ -514,10 +518,6 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Open Sans", sans-serif;
-}
-
-img {
-  width: 15em;
 }
 
 /* Technology */
@@ -708,6 +708,10 @@ img {
     width: 60%;
   }
 }
+img, embed, object, video {
+  max-width: 100%;
+}
+
 /*!
  * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)

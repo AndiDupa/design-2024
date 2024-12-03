@@ -8,7 +8,7 @@
 .footer {
     display: flex;
     justify-content: space-between;
-    background-color: $footerColor;
+    background: linear-gradient(to bottom right, $header, $footerColor);
     border-top: 1px solid $borderColor;
     padding: 2em;
     a {

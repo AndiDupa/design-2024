@@ -1,7 +1,11 @@
 /* Body */
 
 body {
-    background-color: $background-color;
+    background: linear-gradient(to bottom left, $borderColor, $background-color);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 html {
@@ -38,6 +42,6 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Open Sans', sans-serif;
 }
 
-img {
-    width: 15em;
-}
+// img {
+//     width: 15em;
+// }

@@ -1,7 +1,7 @@
 /* Header */
 
 .header {
-    background-color: $header;
+    background: linear-gradient(to top left, $header, $footerColor);
     border-bottom: 2px solid $borderColor;
 }
 
@@ -50,6 +50,7 @@
 }
 
 .homeImage {
+    width: 15em;
     border-radius: 50%;
     border: 2px solid $borderColor;
 }
@@ -70,7 +71,6 @@
     }
     .title * {
         display: block;
-        min-width: 20%;
     }
     .logo {
         display: inline-block;
@@ -80,7 +80,7 @@
         max-width: 100%;
     }
     p {
-        word-break: break-all;
+        word-break: break-word;
     }
     li {
         word-break: break-all;
