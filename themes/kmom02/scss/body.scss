@@ -1,7 +1,8 @@
 /* Body */
 
 body {
-    background: linear-gradient(to bottom left, $borderColor, $background-color);
+    // background: linear-gradient(to bottom left, $borderColor, $background-color);
+    background-color: $background-color;
     height: 100%;
     margin: 0;
     background-repeat: no-repeat;

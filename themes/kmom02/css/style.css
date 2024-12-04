@@ -355,7 +355,7 @@ pre code {
 .footer {
   display: flex;
   justify-content: space-between;
-  background: linear-gradient(to bottom right, #032B29, #2B0406);
+  background: linear-gradient(to bottom right, #26382F, #450F08);
   border-top: 1px solid #FFE6C2;
   padding: 2em;
 }
@@ -381,7 +381,7 @@ pre code {
 }
 /* Header */
 .header {
-  background: linear-gradient(to top left, #032B29, #2B0406);
+  background: linear-gradient(to top left, #26382F, #450F08);
   border-bottom: 2px solid #FFE6C2;
 }
 
@@ -447,13 +447,6 @@ pre code {
     margin-left: auto;
     margin-right: auto;
   }
-  .title * {
-    display: block;
-  }
-  .logo {
-    display: inline-block;
-    max-width: 30%;
-  }
   .main {
     max-width: 100%;
   }
@@ -483,7 +476,7 @@ pre code {
 /* Test */
 /* Body */
 body {
-  background: linear-gradient(to bottom left, #FFE6C2, #797D70);
+  background-color: #56665E;
   height: 100%;
   margin: 0;
   background-repeat: no-repeat;
@@ -712,6 +705,24 @@ img, embed, object, video {
   max-width: 100%;
 }
 
+.gallery-page {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 1em;
+}
+
+.gallery-page > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+@media (max-width: 500px) {
+  .gallery-page {
+    grid-template-columns: auto;
+  }
+}
 /*!
  * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
