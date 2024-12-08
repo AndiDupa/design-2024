@@ -6,7 +6,7 @@ reports:
     - name: Färgval och känslan de signalerar i webbplatser.
       class: colors
       web: 01_colors
-    - name: Laddningstider
+    - name: Webbplatsers laddningstid och användbarhet.
       class: load
       web: 02_load
     - name: Designprinciper

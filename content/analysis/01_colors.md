@@ -21,7 +21,7 @@ Urvalet av webbplatser för analysen valdes inom samma kategori; handel. Urvalet
 
 [Power](https://www.power.se/)
 
-Coop är en utan Sveriges största livsmedelskedjor, och valdes eftersom det är ett välkänt varumärke med ett unikt utseende som inte efterliknar andra livsmedelskedjor.
+Coop är en av Sveriges största livsmedelskedjor, och valdes eftersom det är ett välkänt varumärke med ett unikt utseende som inte efterliknar andra livsmedelskedjor.
 Komplett är en av nordens största elektronikkedjor som främst fokuserar på e-handel.
 Power är ännu än utav nordens största elektronikkedjor, som har ett väldigt unikt tema.
 
