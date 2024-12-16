@@ -1,0 +1,45 @@
+{% include 'incl/header.twig' %}
+
+<body>
+    {% include 'incl/nav.twig' %}
+
+    <div class="main" role="main">
+        <article class="article">
+            {{ content }}
+        </article>
+    </div>
+
+        <!-- <article class="articlePictures"> -->
+        <div class="center gal">
+            <h1>Bilder från <a class="linkAnimate" href="gallery">galleriet.</a></h1>
+        </div>
+
+        <div class="center">
+            <div class="homePics">
+                <h2>Teckning av min karaktär Alex.</h2>
+                <a href="gallery">
+                    <picture>
+                        <source media="(min-width: 448px)" srcset="image/art9.png?w=447&h=447&q=60&crop-to-fit&save-as=jpg">
+                        <source media="(min-width: 376px)" srcset="image/art9.png?w=375&h=375&q=55&crop-to-fit&save-as=jpg">
+                        <img class="homeImg" src="image/art9.png?w=375&h=375&crop-to-fit&area=0,0,0,35" alt="Art by me">
+                    </picture>
+                </a>
+            </div>
+
+            <div class="homePics">
+            <h2>"Self insert" teckning av spelet Death Stranding.</h2>
+                <a href="gallery">
+                    <picture>
+                        <source media="(min-width: 448px)" srcset="image/art10.png?w=447&h=447&q=60&crop-to-fit&save-as=jpg">
+                        <source media="(min-width: 376px)" srcset="image/art10.png?w=375&h=375&q=55&crop-to-fit&save-as=jpg">
+                        <img class="homeImg" src="image/art10.png?w=375&h=375&crop-to-fit&area=0,0,0,35" alt="Art by me">
+                    </picture>
+                </a>
+            </div>
+        </div>
+        <!-- </article> -->
+    
+    {% include 'incl/footer.twig' %}
+</body>
+
+</html>

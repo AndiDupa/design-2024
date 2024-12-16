@@ -115,7 +115,7 @@ Galleri av mina teckningar
     </a>
 </div>
 
-<h2 class="center">Ett somrigt litet klipp i väntar på varmare väder...</h2>
+<h2 class="center">Ett somrigt litet klipp i väntan på varmare väder...</h2>
 <div class="embed-container">
-    <iframe src="https://www.youtube.com/embed/_bW3pH9Jt34?si=1X-GqQ6G5bD2rbQV" frameborder="0" allowfullscreen></iframe>
+    <iframe  title="gallery video" src="https://www.youtube.com/embed/_bW3pH9Jt34?si=1X-GqQ6G5bD2rbQV" frameborder="0" allowfullscreen></iframe>
 </div>

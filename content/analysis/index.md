@@ -9,7 +9,7 @@ reports:
     - name: Webbplatsers laddningstid och användbarhet.
       class: load
       web: 02_load
-    - name: Designprinciper
+    - name: Webbplatsers användning av designprinciper.
       class: design_principles
       web: 03_design_principles
 ---

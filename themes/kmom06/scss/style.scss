@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import '../../node_modules/normalize.css/normalize';
+@import 'color';
+@import 'blockquotes';
+@import 'code';
+@import 'footer';
+@import 'header';
+@import 'test';
+@import 'body';
+@import 'technology';
+@import 'report';
+@import 'gallery';
+
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';

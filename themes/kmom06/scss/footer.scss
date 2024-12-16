@@ -1,0 +1,33 @@
+/* Footer */
+
+.social a {
+    display: inline-block;
+    margin: 0.2em 0.2em;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to bottom right, $blue, $blue, $green);
+    padding: 2em;
+    a {
+        color: $fontColorBright;
+    }
+    .social {
+        float: right;
+    }
+    .container {
+        float: right;
+        font-size: 2em;
+    }
+    .footerText {
+        color: $fontColorBright;
+        word-break: break-word;
+    }
+}
+
+@media (max-width: 500px) {
+    .footer .container {
+        margin-left: 2em;
+    }
+}

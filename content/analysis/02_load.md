@@ -38,7 +38,7 @@ Resultat
 Nedanför är informationen som har dokumenerats i denna analysen:
 
 <div class="excel">
-    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTtoTkUn17Y9Zq23hTeCxOCG7ICHoBcLL8mnYSGHHF_Rjz7Aio2m9cfWygXKwL1YSFj68LFM1Ml5odu/pubhtml?widget=true&amp;headers=false&scrolling=no" style="width: 100%; height: 100%; border: none; overflow: hidden;"></iframe>
+    <iframe title="Results from analysis" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTtoTkUn17Y9Zq23hTeCxOCG7ICHoBcLL8mnYSGHHF_Rjz7Aio2m9cfWygXKwL1YSFj68LFM1Ml5odu/pubhtml?widget=true&amp;headers=false&scrolling=no" style="width: 100%; height: 100%; border: none; overflow: hidden;"></iframe>
 </div>
 
 Tabellen ovan visar hur lång tid de tre olika sidorna tar att ladda in data. Det går att se hur, till exempel, Xbox-webbsidan inte lyckas hålla ikapp med Nintendo- samt Playstation-sidan. Detta är eftersom Xbox-webbplatsen laddar in mycket fler resurser än de andra sidorna. Mer om detta nedan:
